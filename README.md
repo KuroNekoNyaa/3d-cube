@@ -21,10 +21,10 @@
 3d动画的实现：<br>
 1.父元素设置perspective<br>
 2.设置transform-style： preserve-3d；<br>
-3.添加各种动画效果 例如transform： translateZ(-150px) rotateX(0deg)<br><br>
+3.添加各种动画效果 例如transform： translateZ(-150px) rotateX(0deg)<br>
 animation: example 15s linear infinite;<br>
 
-#特别留意
+# 特别留意
 translateX 负值是向左平移 正值向右<br>
 translateY 负值向上 正直向下<br>
 rotateX 自下往上旋转<br><br>
