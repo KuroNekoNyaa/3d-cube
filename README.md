@@ -2,11 +2,19 @@
 
 
 自下往上旋转
+
+
 ![preview](images/cube1.png)
+
+
 分为front、top、back、bottom四面可见
+
+
 ![preview](images/cube2.png)
 
 动画初始
+
+
 ![preview](images/cube3.png)
 
 # 总结
