@@ -10,7 +10,7 @@
         }
         .scene {
             width: 300px;
-            height: 300px;
+            height:300px;
             margin: 75px auto 0;
             perspective: 1200px;
         }
@@ -34,6 +34,7 @@
             font-size: 60px;
             color: #fff;
             text-align: center;
+
         }
         .side:before {
             content: '';
@@ -49,7 +50,7 @@
             display: block;
             position: relative;/*文字不受蒙层的影响*/
         }
-        .back span {
+/*        .back span {
             animation: back 15s linear infinite;
         }
         .top span {
@@ -60,40 +61,27 @@
         }
         .front span {
             animation: front 15s linear infinite;
-        }
+        }*/
         .guides {
             /*白色分割线*/
             position: absolute;
             top:0;
-            left: 50px;
+            left:50px;
             width: 200px;
             height:100%;
+            border-width: 0 1px;
             border-style: dotted;
-            border-width: 0  1px;
-            color: rgba(255, 255, 255, .6);
+            border-color: rgba(255, 255, 255, .6);
+
         }
         .guides:before{
             content: '';
             position: absolute;
-            left:50%;
+            left: 50%;
             width: 0;
             height:100%;
             border-left: 1px dotted;
         }
-
-        .back{
-            transform: translateZ(-150px) rotateX(180deg);
-        }
-        .top {
-            transform: translateZ(-150px) rotateX(90deg);
-        }
-        .bottom {
-            transform: translateZ(150px) rotateX(270deg);
-        }
-        .front{
-            transform: translateZ(150px);
-        }
-
         .back {
             background-image: url("images/back.jpg");
             transform: translateZ(-150px) rotateX(180deg);
@@ -123,7 +111,7 @@
             100% {transform: translateZ(-150px) rotateX(360deg);}
         }
 
-        @keyframes front {
+        /*@keyframes front {
             0% {transform: translateY(0px);}
             15% {transform: translateY(-100px);}
             25% {transform: translateY(-100px);}
@@ -168,7 +156,7 @@
             75% {transform: translateY(0px);}
             90% {transform: translateY(-100px);}
             100% {transform: translateY(-100px);}
-        }
+        }*/
     </style>
 
 </head>
